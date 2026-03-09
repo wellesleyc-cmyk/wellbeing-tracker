@@ -1,0 +1,25 @@
+{
+  "name": "Wellbeing Tracker",
+  "short_name": "Wellbeing",
+  "start_url": "/wellbeing-tracker/",
+  "scope": "/wellbeing-tracker/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#ffffff",
+  "theme_color": "#4A90E2",
+  "description": "Daily WHO-5 wellbeing survey and health tracking",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
