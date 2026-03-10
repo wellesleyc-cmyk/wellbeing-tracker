@@ -155,12 +155,16 @@ input {
    Survey Screen — Question Cards
    ============================================================================= */
 
-.question-card {
+.question-block {
   background: var(--color-card);
   border-radius: var(--border-radius-card);
   margin: 8px 16px;
   padding: 16px;
   box-shadow: var(--shadow-card);
+}
+
+.survey-wrapper {
+  padding: 0 0 16px;
 }
 
 .question-text {
@@ -173,7 +177,7 @@ input {
 
 /* Score Buttons Row */
 
-.score-row {
+.score-buttons {
   display: flex;
   justify-content: space-between;
   gap: 4px;
@@ -210,7 +214,7 @@ input {
 
 /* Score Labels */
 
-.score-labels {
+.scale-labels {
   display: flex;
   justify-content: space-between;
   font-size: 10px;
@@ -219,9 +223,17 @@ input {
   margin-bottom: 4px;
 }
 
+.scale-label {
+  flex: 1;
+  text-align: center;
+}
+
+.scale-label:first-child { text-align: left; }
+.scale-label:last-child  { text-align: right; }
+
 /* Running Total Display */
 
-.score-display {
+.running-score {
   text-align: center;
   font-size: 18px;
   font-weight: 600;
